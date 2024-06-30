@@ -75,7 +75,7 @@ button:hover {
 .home-title {
     grid-row: 1 / 2;
     justify-self: center;
-    font-size: 70px;
+    font-size: 50px;
     color: #30975b;
     margin-top: 20px;
     font-family: 'LXGW WenKai Mono TC', Times, serif;
@@ -89,7 +89,8 @@ button:hover {
     transform: scale(1.1);
 }
 
-.home-img {
+.home-img {/* Background color */
+    padding: 50px 100px; 
     grid-row: 3 / 4;
     justify-self: center;
     align-self: center;
@@ -116,7 +117,7 @@ button:hover {
     user-select: none;
     display: flex;
     justify-self: center;
-    font-size: 40px;
+    font-size: 30px;
     color: #30975b;
     justify-self: center;
     align-self: center;
