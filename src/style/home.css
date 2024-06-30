@@ -24,7 +24,6 @@ footer {
     gap: 10px;
     height: fit-content;
     font-family: 'LXGW WenKai Mono TC', Times, serif;
-    overflow: hidden;
 }
 
 footer a i {
