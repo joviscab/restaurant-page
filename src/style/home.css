@@ -12,28 +12,30 @@ header {
     box-shadow: 1px 2px 9px 0px rgba(0, 0, 0, 0.162);
     z-index:0;
     position: relative;
+    overflow: hidden;
 }
 
 footer {
     display: flex;
     font-weight: 800;
-    color: #000000;
+    color: #247245;
     justify-content: center;
     align-items: center;
     font-size: 1rem;
     gap: 10px;
     height: fit-content;
     font-family: 'LXGW WenKai Mono TC', Times, serif;
+    overflow: hidden;
 }
 
 footer a i {
     font-size: 20px; 
     margin-right: 1px; 
-    color: #000000;
+    color: #247245;
 }
 
 footer a:visited {
-    color: #7b8088;
+    color: #30975b6c;
 }
 
 nav {
@@ -51,6 +53,7 @@ button {
     cursor: pointer;
     color: #30975b;
     transition: 0.1s;
+    overflow: hidden;
 }
 
 button:hover {
@@ -68,6 +71,7 @@ button:hover {
     background-image: url(../img/plate4.jpg);
     background-position:center;
     background-size: cover;
+    overflow: hidden;
 }
 
 .home-title {
@@ -125,6 +129,7 @@ button:hover {
     padding-bottom: 50px;
     text-align: justify;
     font-family: 'LXGW WenKai Mono TC', Times, serif;
+    overflow: hidden;
 }
 
 .home-description:hover {
