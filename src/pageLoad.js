@@ -1,7 +1,7 @@
-import createRestaurantHomePage from './homePage';
+import createRestaurantHome from './home';
 
 function initLoad() {
-    createRestaurantHomePage();
+    createRestaurantHome();
 }
 
 export default initLoad;

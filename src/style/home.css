@@ -1,0 +1,135 @@
+
+body {
+    font-family: 'Playwrite AU TAS', Helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    box-shadow: 1px 2px 9px 0px rgba(0, 0, 0, 0.162);
+    z-index:0;
+    position: relative;
+}
+
+footer {
+    display: flex;
+    font-weight: 800;
+    color: #000000;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    gap: 10px;
+    height: fit-content;
+    font-family: 'LXGW WenKai Mono TC', Times, serif;
+}
+
+footer a i {
+    font-size: 20px; 
+    margin-right: 1px; 
+    color: #000000;
+}
+
+footer a:visited {
+    color: #7b8088;
+}
+
+nav {
+    display: flex;
+    gap: 80px;
+    height: fit-content;
+}
+
+button {
+    padding: 2px;
+    font-size: 2rem;
+    font-weight: 200;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: #30975b;
+    transition: 0.1s;
+}
+
+button:hover {
+    color: #30975b;
+    font-weight: 300;
+    border-left: dotted #30975b;
+    border-right: dotted #30975b;
+    transform: scale(1.1);
+}
+
+.page-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 2fr 2fr;
+    background-image: url(../img/plate4.jpg);
+    background-position:center;
+    background-size: cover;
+}
+
+.home-title {
+    grid-row: 1 / 2;
+    justify-self: center;
+    font-size: 70px;
+    color: #30975b;
+    margin-top: 20px;
+    font-family: 'LXGW WenKai Mono TC', Times, serif;
+    user-select: none;
+}
+
+.home-title:hover {
+    color: #35a965;
+    transition: all .2s ease;
+    vertical-align: middle;
+    transform: scale(1.1);
+}
+
+.home-img {
+    grid-row: 3 / 4;
+    justify-self: center;
+    align-self: center;
+    overflow: hidden;
+    border-radius: 1em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    user-select: none;
+    background-color: #ffffffdd;
+    padding-left: 100%;
+    padding-right: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.home-img:hover {
+    overflow: hidden;
+    transition: all .2s ease;
+    vertical-align: middle;
+    transform: scale(1.1);
+}
+
+.home-description {
+    user-select: none;
+    display: flex;
+    justify-self: center;
+    font-size: 40px;
+    color: #30975b;
+    justify-self: center;
+    align-self: center;
+    background-color: #ffffffdd;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: justify;
+    font-family: 'LXGW WenKai Mono TC', Times, serif;
+}
+
+.home-description:hover {
+    color: #35a965;
+    transition: all .2s ease;
+    vertical-align: middle;
+    transform: scale(1.1);
+}

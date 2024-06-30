@@ -1,5 +1,5 @@
 import createAboutPage from './about';
-import createRestaurantHomePage from './homePage';
+import createRestaurantHome from './home';
 import createMenuPage from './menu';
 import pageLoad from './pageLoad';
 
@@ -21,5 +21,5 @@ function updateContent(createFunction) {
 
 aboutButton.addEventListener('click', () => updateContent(createAboutPage));
 menuButton.addEventListener('click', () => updateContent(createMenuPage));
-homeButton.addEventListener('click', () => updateContent(createRestaurantHomePage));
+homeButton.addEventListener('click', () => updateContent(createRestaurantHome));
  
