@@ -1,10 +1,11 @@
 import createAboutPage from './about';
 import createRestaurantHome from './home';
 import createMenuPage from './menu';
+import initLoad from './pageLoad';
 import pageLoad from './pageLoad';
 
 //pageLoad function
-pageLoad();
+initLoad();
 
 const content = document.querySelector('#content');
 const homeButton = document.querySelector('.home-btn');

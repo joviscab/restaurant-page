@@ -1,5 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
@@ -37,5 +38,9 @@ module.exports = {
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(), // Enable HMR plugin
+    new HtmlWebpackPlugin({
+      template: './src/index.html', // Path to your index.html file
+      filename: 'index.html', // Output filename
+    }),
   ],
 };
