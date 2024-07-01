@@ -28,7 +28,7 @@ footer {
 
 footer a i {
     font-size: 20px; 
-    margin-right: 1px; 
+    margin-right: 4px; 
     color: #247245;
 }
 
@@ -65,38 +65,38 @@ button:hover {
 .page-content {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.2fr 2fr 2fr;
+    grid-template-rows: 0.2fr 0.6fr 0.6fr;
     background-image: url(../img/plate4.jpg);
-    background-position:center;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
     overflow: hidden;
 }
 
 .home-title {
-    grid-row: 1 / 2;
-    justify-self: center;
-    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
     color: #30975b;
-    margin-top: 20px;
     font-family: 'LXGW WenKai Mono TC', Times, serif;
     user-select: none;
+    background-color: #ffffffdd; 
+    margin: 0; 
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
 }
 
-.home-title:hover {
-    color: #35a965;
-    transition: all .2s ease;
-    vertical-align: middle;
-    transform: scale(1.1);
-}
-
-.home-img {/* Background color */
+.home-img {
     padding: 50px 100px; 
     grid-row: 3 / 4;
     justify-self: center;
     align-self: center;
     overflow: hidden;
     border-radius: 1em;
-    margin-top: 50px;
     margin-bottom: 50px;
     user-select: none;
     background-color: #ffffffdd;
@@ -129,11 +129,4 @@ button:hover {
     text-align: justify;
     font-family: 'LXGW WenKai Mono TC', Times, serif;
     overflow: hidden;
-}
-
-.home-description:hover {
-    color: #35a965;
-    transition: all .2s ease;
-    vertical-align: middle;
-    transform: scale(1.1);
 }

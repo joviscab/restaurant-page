@@ -1,26 +1,18 @@
-.page-aboutcontent {
+
+.page-menucontent {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    background-image: url(../img/plate2.jpg);
+    background-image: url(../img/leafs4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
     overflow: auto;
-    gap: 50px;
+    gap: 0px;
 }
 
-.chef-img {
-    max-width: 50%; 
-    height: auto;
-    display: flex;
-    justify-self: center;
-    align-self: center;
-    border-radius: 10rem;
-}
-
-.about-title {
+.menu-title {
     display: flex;
     justify-content: center;
     font-size: 60px;
@@ -34,37 +26,48 @@
     padding-top: 30px;
     padding-bottom: 30px;
     margin-top: 30px;
+    margin-bottom: 60px;
 }
 
-.about-text {
-    user-select: none;
-    display: flex;
-    font-size: 30px;
-    color: #30975b;
-    justify-self: center;
-    align-self: center;
-    background-color: #ffffffdd;
-    padding-right: 100px;
-    padding-left: 100px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    text-align: justify;
-    font-family: 'LXGW WenKai Mono TC', Times, serif;
-    overflow: auto;
-    margin: 0;
-    margin-bottom: 30px;
-}
-
-.about-subtitle {
+.menu-subtitle {
     user-select: none;
     text-align: center;
     align-self: center;
-    font-size: 50px;
+    font-size: 45px;
     color: #30975b;
     background-color: #ffffffdd;
     padding-top: 30px;
     padding-bottom: 30px;
     font-family: 'LXGW WenKai Mono TC', Times, serif;
+    font-weight: bolder;
     overflow: auto;
     margin: 0;
+    border-top:solid 1px #30975b;
+}
+
+.menu-platename {
+    user-select: none;
+    text-align: center;
+    align-self: center;
+    font-size: 30px;
+    color: #30975b;
+    background-color: #ffffffdd;
+    padding-top: 30px;
+    font-family: 'LXGW WenKai Mono TC', Times, serif;
+    overflow: auto;
+    margin: 0;
+}
+
+.menu-detail {
+    user-select: none;
+    text-align: center;
+    align-self: center;
+    font-size: 25px;
+    color: #30975b;
+    background-color: #ffffffdd;
+    padding-bottom: 30px;
+    font-family: 'LXGW WenKai Mono TC', Times, serif;
+    overflow: auto;
+    margin: 0;
+    padding-bottom: 60px;
 }

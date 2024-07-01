@@ -7,7 +7,7 @@ function createAboutPage() {
     pageContent.classList.add('page-aboutcontent');
 
     const title = document.createElement('h1');
-    title.textContent = 'About Herbivore Delight';
+    title.textContent = 'About Us';
     title.classList.add('about-title');
     pageContent.appendChild(title);
 
