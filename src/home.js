@@ -3,6 +3,7 @@ import restaurantImage from './img/restaurant.jpg'
 
 function createRestaurantHome() {
     const content = document.querySelector('#content');
+    content.innerHTML = '';
     const pageContent = document.createElement('div');
     pageContent.classList.add('page-content');
 
