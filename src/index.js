@@ -2,7 +2,6 @@ import createAboutPage from './about';
 import createRestaurantHome from './home';
 import createMenuPage from './menu';
 import initLoad from './pageLoad';
-import initLoad from './pageLoad';
 
 //pageLoad function
 initLoad();
